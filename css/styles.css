@@ -1,0 +1,116 @@
+body{
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+a{
+  margin: 20px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-size:500%;
+  margin: 50px auto 0 auto;
+}
+h2{
+  font-size: 32px;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+p{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.bottom-cloud{
+  position:absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top: 50px;
+
+}
+.profile-me{
+  height: 20%;
+  width: 20%;
+}
+.skill-row{
+  width: 50%;
+  margin: auto;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.chilli{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+
+}
+.computer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.btn {
+  font-family: arial;
+  font-weight: bold;
+  color: #F0EBE4 !important;
+  font-size: 15px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 2px 1px 2px #BEE2F9;
+  padding: 14px 28px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(top,  #63B8EE,  #468CCF);
+  background: -ms-linear-gradient(top,  #63B8EE,  #468CCF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#63B8EE), to(#468CCF));
+  background: -moz-linear-gradient(top,  #63B8EE,  #468CCF);
+}
+.btn:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -ms-linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
+  background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
+}
+.contact-me{
+  text-align:center;
+}
+.heart{
+  color: red;
+}
